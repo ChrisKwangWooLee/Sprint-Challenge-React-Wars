@@ -21,10 +21,10 @@ function PeopleCard(props) {
             <Card>
                 <CardImg top width="100%" src="https://lumiere-a.akamaihd.net/v1/images/og-generic_02031d2b.png?region=0%2C0%2C1200%2C1200" alt="Card image cap" style={{width: "100%"}}/>
                 <CardBody>
-                    <CardTitle>{personData.name}</CardTitle>
-                    <CardText>{personData.height}</CardText>
-                    <CardText>{personData.gender}</CardText>
-                    <CardText>{personData.eye_color}</CardText>
+                    <CardTitle>Name: {personData.name}</CardTitle>
+                    <CardText>Height: {personData.height}</CardText>
+                    <CardText>Gender: {personData.gender}</CardText>
+                    <CardText>Eye Color: {personData.eye_color}</CardText>
                     <Button>Fake Button</Button>
                 </CardBody>
             </Card>
